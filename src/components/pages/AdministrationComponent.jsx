@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function AdministrationComponent() {
+export default function DashboardComponent() {
     return (
         <div>
-            <h1>admin</h1>
+            <h2>DashboardComponent</h2>
         </div>
     )
 }

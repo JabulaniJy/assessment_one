@@ -1,0 +1,68 @@
+{
+    "customers":[
+    {
+        "customer_ID":1,
+        "name":  "Rixos The Palm",
+        "location": [-26.191642, 28.037221]
+        },
+        {
+        "customer_ID":2,
+        "name": "Esselen Street Residence, Esselen St, Johannesburg, 2000",
+        "location": [-26.190635, 28.044598]
+        },
+        {
+        "customer_ID":3,
+        "name": "61 5th Ave, Melville, Johannesburg, 2109",
+        "location": [-26.174557, 28.008355]
+        },
+        {
+        "customer_ID":4,
+        "name": "Hillbrow, Johannesburg, 2038",
+        "location": [-26.183877, 28.048009]
+        },
+        {
+        "customer_ID":5,
+        "name": "30 Fortesque Rd, Yeoville, Johannesburg, 2198",
+        "location": [-26.181643, 28.061313]
+        },
+        {
+        "customer_ID":6,
+        "name": "Braamfontein, Braampark, Johannesburg, 2001",
+        "location": [-26.189480, 28.037109]
+        },
+        {
+        "customer_ID":7,
+        "name": " 41 Ditton Ave, Auckland Park, Johannesburg, 2092",
+        "location": [-26.186207, 28.004064]
+        },
+        {
+        "customer_ID":8,
+        "name": " Mooifontein 225-Iq, Johannesburg South",
+        "location": [-26.245013, 27.967000]
+        },
+        {
+        "customer_ID":9,
+        "name": "11 Congo Rd, Emmarentia, Randburg, 2195 ",
+        "location": [-26.167831, 28.007512]
+        },
+        {
+        "customer_ID":10,
+        "name": "Johannesburg ",
+        "location": [-26.180983, 28.047509]
+        },
+        {
+        "customer_ID":11,
+        "name": "4th St, Killarney, Johannesburg, 2193 ",
+        "location": [-26.167656, 28.049655]
+        },
+        {
+        "customer_ID":12,
+        "name": "105 5th Ave, Melville, Johannesburg, 2109 ",
+        "location": [-26.175659, 28.013912]
+        }
+       
+    ] 
+}
+
+
+  
