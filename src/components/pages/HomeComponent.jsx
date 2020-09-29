@@ -5,15 +5,18 @@ export default function HomeComponent() {
     return (
         <>
          <Container fluid>
-            <Jumbotron>
-            <Row className="">
+            <Jumbotron className="home-jumbotron">
+                <Row className="">
 
                 <Col md={6} className="">
 
-                <h1>Hello, world!</h1>
+                <h1>Welcome</h1>
                 <p>
-                    This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.
+                    This platform is made for all your sales ananlysis needs. Hope you enjoy using this platform
+                </p>
+                <hr/>
+                <p>
+                Get all projections visualised in charts, making it easy the make sense of the data in the admin sectio. View your profile and a lot more just click the side menu and explore
                 </p>
                 </Col>
 
@@ -21,43 +24,28 @@ export default function HomeComponent() {
                 <Carousel>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 fluid"
+                        className="d-block  home-img fluid"
                         src="assets/images/slider/001.png"
                         alt="First slide"
                         />
-                        <Carousel.Caption>
-                        <h3>First slide label</h3>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100 fluid"
+                        className="d-block home-img fluid"
                         src="assets/images/slider/002.jpg"
                         alt="Third slide"
                         />
-
-                        <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                     <img
-                    className="d-block w-100 fluid"
+                    className="d-block  home-img fluid"
                     src="assets/images/slider/003.jpg"
                     alt="Third slide"
                     />
-
-                    <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
                 </Col>
             </Row>
-
             </Jumbotron>
                 
 

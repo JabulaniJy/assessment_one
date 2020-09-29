@@ -6,6 +6,7 @@ import Home from './components/pages/HomeComponent';
 import Dashboard from './components/pages/AdministrationComponent';
 import Admin from './components/pages/DashboardComponent';
 import Profile from './components/pages/ProfileComponent';
+import Footer from './components/layout/FooterComponent'
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path='/Profile' exact component={Profile}/>
 
         </Switch>
+        <Footer/>
       </Router>
     </div>
   );
