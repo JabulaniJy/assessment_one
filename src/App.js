@@ -3,8 +3,8 @@ import './App.css';
 import MainComponent from './components/MainComponent'
 import {BrowserRouter as Router,Switch, Route} from 'react-router-dom'
 import Home from './components/pages/HomeComponent';
-import Dashboard from './components/pages/DashboardComponent';
-import Admin from './components/pages/AdministrationComponent';
+import Dashboard from './components/pages/AdministrationComponent';
+import Admin from './components/pages/DashboardComponent';
 import Profile from './components/pages/ProfileComponent';
 
 

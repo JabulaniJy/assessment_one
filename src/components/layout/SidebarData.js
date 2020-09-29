@@ -24,7 +24,7 @@ import * as RiIcons from "react-icons/ri";
    
     {
         title: 'Profile',
-        path:'/',
+        path:'/Profile',
         icon:<RiIcons.RiProfileFill/>,
         cName:"nav-text mb-3"
     }

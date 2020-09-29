@@ -2,8 +2,8 @@ import React from 'react'
 import {Container, Row,Col } from 'react-bootstrap';
 import {GoogleMap, withScriptjs, withGoogleMap,Marker} from 'react-google-maps';
 import * as markersData from './data/markers.json';
-
-
+import LineChart from './data/SalesChart';
+import BarChart from './data/BarChart';
 export default function AdministrationComponent() {
 
     function Map(){
@@ -21,8 +21,12 @@ const WrappedMap = withScriptjs(withGoogleMap(Map));
         <div>
            <Container fluid>
                 <Row>
-                    <Col>sales this month</Col>
-                    <Col>Projected sales: 40000</Col>
+                    <Col md={6}>
+                        <LineChart/>
+                    </Col>
+                    <Col md={6}>
+                        <BarChart/>
+                    </Col>
                 </Row>
                 <Row>
                     <div className="m-4 map-div" >

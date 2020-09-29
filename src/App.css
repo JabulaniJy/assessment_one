@@ -79,3 +79,16 @@ span{
   border-radius: 10;
 
 }
+.profile-area{
+  background-color: #060b26;
+  border-radius: 5px;
+  padding:20px;
+  color:white;
+  font-size: 20pts;
+}
+.profile-hr{
+  background-color: #ffffff;
+
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75));}

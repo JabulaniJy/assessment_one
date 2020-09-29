@@ -17,11 +17,11 @@ export default function HomeComponent() {
                 </p>
                 </Col>
 
-                <Col md={4} className="">
+                <Col md={4} >
                 <Carousel>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100"
+                        className="d-block w-100 fluid"
                         src="assets/images/slider/001.png"
                         alt="First slide"
                         />
@@ -32,7 +32,7 @@ export default function HomeComponent() {
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
-                        className="d-block w-100"
+                        className="d-block w-100 fluid"
                         src="assets/images/slider/002.jpg"
                         alt="Third slide"
                         />
@@ -44,7 +44,7 @@ export default function HomeComponent() {
                     </Carousel.Item>
                     <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 fluid"
                     src="assets/images/slider/003.jpg"
                     alt="Third slide"
                     />
